@@ -84,10 +84,73 @@
 
 ## More operations on Types    
 
-dir(list)
+    # dir(list)
 
-use help(list.<methodname>) to see how to use that method
+# use help(list.<methodname>) to see how to use that method
 
- 'append', 'clear', 'copy', 'count', 'extend',
-'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+    # 'append', 'clear', 'copy', 'count', 'extend',
+    # 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
 
+# #accessing list
+    # serials = ["RH80810A", "AA899819A", "XYSA9099400", "OOP8988459", "EEO8904882", "KOC9889482"]
+    # print(serials[2])
+
+#acessing ans clicing list    
+
+    # letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+    # print(letters[1:4])
+    # Answer
+    # ['b', 'c', 'd']
+
+    # letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+    # print(letters[:3])
+    # Answer 
+    # ['a', 'b', 'c']
+
+    # letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+    # print(letters[-3:])
+    # Answer
+    # ['e', 'f', 'g']
+
+# #     Summary: Positive/Negative Indexes, Slicing
+# # In this section you learned that:
+
+    # Lists, strings, and tuples have a positive index system:
+        # ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+        # 0      1      2      3      4      5      6
+
+    # And a negative index system:
+        # ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+        # -7     -6     -5     -4     -3     -2     -1
+
+    # In a list, the 2nd, 3rd, and 4th items can be accessed with:
+        # days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+        # days[1:4]
+        # Output: ['Tue', 'Wed', 'Thu']
+
+    # First three items of a list:
+        # days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+        # days[:3]
+        # Output:['Mon', 'Tue', 'Wed'] 
+
+    # Last three items of a list:
+        # days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+        # days[-3:]
+        # Output: ['Fri', 'Sat', 'Sun']
+
+    # Everything but the last:
+        # days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+        # days[:-1] 
+        # Output: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] 
+
+    # Everything but the last two:
+        # days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+        # days[:-2] 
+        # Output: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'] 
+
+    # A single in a dictionary can be accessed using its key:
+        # phone_numbers = {"John Smith":"+37682929928","Marry Simpsons":"+423998200919"}
+        # phone_numbers["Marry Simpsons"]
+        # Output: '+423998200919'
+
+    
